@@ -1,0 +1,27 @@
+<rows profile='color'><head><columns><column  colspan="7"  width='50' align='center' type='ro' sort='na' color=''><![CDATA[Field Stock  Availibility Report for Stakeholder(s) = 'PWD' Province/Region = 'Punjab' And Product = 'Condom' (Apr-2016) ]]></column><column  width='200' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='370' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='200' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='120' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='70' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='50' align='center' type='ro' sort='na' color=''><![CDATA[]]></column></columns>
+<columns><column><![CDATA[Sr. No.]]></column><column><![CDATA[District]]></column><column><![CDATA[Health Facility]]></column><column><![CDATA[Average Monthly Consumption]]></column><column><![CDATA[Stock on Hand]]></column><column colspan="2" ><![CDATA[Month of Stock]]></column><column><![CDATA[]]></column></columns></head>
+<foot>
+<columns>
+<column colspan='14' ><![CDATA[Note: This report does not inclulde (RHS-B;MSU;Social Mobilizer;PLDs;RMPS;Hakeems;Homopaths;DDPs;TBAs;Counters)]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+</columns>
+</foot><row><cell><![CDATA[1]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Girote]]></cell><cell><![CDATA[2,550]]></cell><cell><![CDATA[5,100]]></cell><cell><![CDATA[2.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[2]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Naushera]]></cell><cell><![CDATA[2,633]]></cell><cell><![CDATA[5,400]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[3]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Katha Sagral]]></cell><cell><![CDATA[3,017]]></cell><cell><![CDATA[6,100]]></cell><cell><![CDATA[2.02]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[4]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Khushab]]></cell><cell><![CDATA[3,200]]></cell><cell><![CDATA[6,750]]></cell><cell><![CDATA[2.11]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[5]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Joyia]]></cell><cell><![CDATA[2,817]]></cell><cell><![CDATA[7,234]]></cell><cell><![CDATA[2.57]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[6]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Bandial]]></cell><cell><![CDATA[1,667]]></cell><cell><![CDATA[3,500]]></cell><cell><![CDATA[2.10]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[7]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Ochali]]></cell><cell><![CDATA[1,783]]></cell><cell><![CDATA[3,750]]></cell><cell><![CDATA[2.10]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[8]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Hadali]]></cell><cell><![CDATA[3,067]]></cell><cell><![CDATA[6,350]]></cell><cell><![CDATA[2.07]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[9]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Noorpur Thal]]></cell><cell><![CDATA[3,262]]></cell><cell><![CDATA[6,628]]></cell><cell><![CDATA[2.03]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[10]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Adhi Kot]]></cell><cell><![CDATA[2,000]]></cell><cell><![CDATA[3,998]]></cell><cell><![CDATA[2.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[11]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Adhi Sargal]]></cell><cell><![CDATA[1,067]]></cell><cell><![CDATA[2,150]]></cell><cell><![CDATA[2.01]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[12]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[FWC Laghari]]></cell><cell><![CDATA[3,363]]></cell><cell><![CDATA[6,890]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[13]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[Nali]]></cell><cell><![CDATA[1,423]]></cell><cell><![CDATA[3,102]]></cell><cell><![CDATA[2.18]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[14]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[Obhal]]></cell><cell><![CDATA[1,900]]></cell><cell><![CDATA[5,400]]></cell><cell><![CDATA[2.84]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[15]]></cell><cell><![CDATA[Khushab]]></cell><cell><![CDATA[Peelowains]]></cell><cell><![CDATA[1,467]]></cell><cell><![CDATA[3,250]]></cell><cell><![CDATA[2.22]]></cell><cell><![CDATA[]]></cell></row></rows>

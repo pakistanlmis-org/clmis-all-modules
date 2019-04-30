@@ -1,0 +1,11 @@
+[21-Dec-2017 09:47:02 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 165
+[14-Jun-2018 21:42:20 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 189
+[21-Jun-2018 16:51:50 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 189
+[27-Jun-2018 13:01:02 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[12-Jul-2018 18:31:53 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[12-Jul-2018 18:32:47 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[12-Jul-2018 18:38:35 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[24-Jul-2018 21:06:38 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[24-Jul-2018 21:10:38 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[30-Oct-2018 09:38:28 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191
+[30-Oct-2018 10:36:29 Asia/Karachi] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/clmispk/public_html/data/loaddata2.php on line 191

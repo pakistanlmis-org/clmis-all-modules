@@ -1,0 +1,539 @@
+/* StyleSheet used for SysDocs and other project files                    */
+/* This is used for all non-Mac IEs. It is consider the base style sheet. */
+/* This is also used by Netscape 6 for Windows.                           */
+
+/* *****************************************************************************
+Modification History (LIFO)
+===========================
+Oct 22, 2008 - mdeangelis - moved required class here so that both edit profile
+                            and registration could refer to same class when showing
+							required input fields
+Jun xx, 2008 - mdeangelis - added new styles for usability project, corrected
+                            errors, removed SPAN  
+******************************************************************************* */
+
+/* Elements */
+
+A {
+font-style:normal;
+}
+
+A:link {
+color:#000000;
+}
+
+A:visited {
+color:#990099;
+}
+
+A:hover {
+color:#3366cc;
+}
+
+A:active {
+color:#3333cc;
+}
+
+A.BigLink {
+font-weight:bold;
+}
+
+BODY {
+font-family:Arial,Helvetica,sans-serif; /* @@ mdeangelis corrected */
+font-size:small;  
+background-color:#ffffff;
+color:#000000;
+}
+
+DIV.Row {
+
+border:3px inset #CCCCCC;
+background-color:#FFFFFF; /* @@ mdeangelis corrected */
+
+}
+
+DIV.Header {
+margin:0px;
+border:3px inset #CCCCCC;
+background-color:#6699cc;
+}
+
+H1 {
+font-family:Arial,Helvetica,sans-serif; /* @@ mdeangelis corrected */
+padding:6px;
+margin:0px;
+font-size: small;  
+font-weight:bold;
+}
+
+LI {
+margin:0px;
+}
+
+MARQUEE {
+padding:6px;
+margin:0px;
+font-style:italic;
+}
+
+P {
+font-family:arial,helvetica,garamond,sans-serif;
+font-weight:normal;
+font-size:small;
+margin:0px;
+padding:6px;
+}
+/* @@ mdeangelis removed
+SPAN {
+padding:6px;
+font-size:small;
+vertical-align:top;
+}
+*/
+
+UL {
+font-family:arial,helvetica,garamond,sans-serif;
+font-weight:normal;
+font-size:small;
+padding:6px;
+margin-left:24px;
+}
+
+/* @@ mdeangelis - added the following section */
+
+.required { color:red }
+
+.sb1BlueRubric { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: rgb(1,98,131); 
+	font-size: 14px; 
+	font-weight: bold;
+	text-decoration: none; 
+    padding-top: 0px; 
+    padding-bottom: 15px; 
+}
+
+.sb1GeenGradientBoxMiddle { 
+         font-size:12px; /* 16667 from 11 to 12 */
+         font-family: Verdana, Arial, Helvetica, sans-serif; 
+         color: #444444;
+		 text-decoration:none;
+}
+.sb1BlueRubricSmaller { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: rgb(1,98,131); 
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.sb1BlueRubricSmallest { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: rgb(1,98,131); 
+	font-size: 11px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.sb1BlueRubricSmallestLink { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: rgb(1,98,131); 
+	font-size: 11px; 
+	font-weight: bold;
+	text-decoration: underline; 
+	cursor: pointer;
+}
+
+.sb1ReportLabel { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 14px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+
+.sb1ReportSubLabel { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: underline; 
+}
+.sb1DonorLabel { 
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #333333; 
+	font-size: 14px; 
+	font-weight: bold;
+	text-decoration: none; 
+         padding-bottom: 5px;
+}
+
+.sb1ReportTableLabel { 
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.sb1NormalFontArial {
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1NormalFont {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size:12px; 
+	font-weight:bold;
+	text-decoration: none; 
+}
+.sb1SmallerFont {
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 11px; 
+	font-weight: normal;
+	text-decoration: none;
+	text-decoration:none;
+}
+.sb1SmallerFontVerdana {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 11px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFont {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #000000; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFontVerdana {     
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #000000; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFontBlueArial {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #2A6283; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFontBlue {     
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #2A6283; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFontNavyArial {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: navy; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1SmallestFontNavy {     
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: navy; 
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+.sb1FormButton {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 10px; 
+	font-weight: normal;
+         background-color: #F3F3F0;
+	text-decoration: none; 
+}
+.sb1FormLabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: navy; 
+	font-size: 12px; 
+	font-weight: normal;
+         background-color: #FFFFFF;
+	text-decoration: bold; 
+}
+.sb1PanelSectionLabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color: #FFFFFF;
+    background-color: #2A6283;
+	font-size: 12px; /* 16667 changed from 10 to 12 */
+	font-weight: bold;
+	text-decoration: none; 
+}
+.sb1GreenInfoBoxLabel {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background:url(../plmis_img/tab-head-b.jpg);
+	background-repeat:repeat-x;
+	height:35px;
+    color:#FFFFFF;
+	vertical-align:middle;
+   
+	font-size:13px; /* 16667 changed from 10 to 12 */
+	font-weight: bold;
+	text-decoration: none;
+}
+.sb1GreenInfoBoxMiddle {   
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444;
+	background-color: #D1E9CB;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 11px; 
+	font-weight: normal;
+	text-decoration: none; 
+         width: 265px;
+}
+.sb1GreenInfoBoxMiddleText {   
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+         color: #444444;
+         background-color: #D1E9CB;
+	font-size: 11px; 
+	font-weight: normal;
+}
+.sb1PanelSectionLabel a {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+         color: #FFFFFF;
+         background-color: #2A6283;
+	font-size: 9px; 
+	font-weight: normal;
+	text-decoration: underline; 
+}
+.sb1RowDataEven {     
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none;
+	background-color:#FFFFFF; 
+}
+
+.sb1RowDataOdd {     
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif; 
+	color: #444444; 
+	font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none;
+	background-color:#E8EDF2; 
+}
+
+.sb1ColumnHeader {        
+	font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif; 
+         color: #FFFFFF;
+         background-color: #008206;
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+.sb1ColumnHeader a {        
+	font-family: Arial, Tahoma, Verdana, Helvetica, sans-serif; 
+         color: #FFFFFF;
+         background-color: #2A6283;
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: underline; 
+}
+
+.sb1ValidationError {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: yellow; 
+         background-color: #E8EDF2;
+	font-size: 10px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.sb1GeneralMessage {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: maroon; 
+         background-color: #FFFFCC;
+         padding-left:3px;
+         padding-top:3px;
+         padding-right:3px;
+         padding-bottom:3px;
+	font-size: 12px;    
+	font-weight: normal;
+         border: solid;
+         border-width: 1px;
+         border-color: maroon;
+	text-decoration: none; 
+}
+
+.sb1Exception {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: red; 
+	font-size: 18px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+.sb1Exception1 {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: red; 
+	font-size: 16px; 
+	font-weight: bold;
+	text-decoration: none;
+	margin-top:5px;
+}
+
+.sb1ValidationErrorBgW {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: yellow; 
+         background-color: #FFFFFF;
+	font-size: 10px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+
+.sb1ProblemWithReport {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: red; 
+         background-color: #FFFFFF;
+	font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+
+.sb1ReportHasNoResults {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: maroon; 
+         background-color: #FFFFFF;
+	font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+
+.sb1IllegalOperation {     
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: maroon; 
+         background-color: #FFFFFF;
+	font-size: 12px; 
+	font-weight: normal;
+	text-decoration: none; 
+}
+
+.sb1OptionLink { 
+         font-family: Verdana, Tahoma, Arial, Helvetica, sans-serif; 
+         color: #0000FF; 
+         font-size: 10px; 
+         font-weight: normal;
+         text-decoration: underline; 
+}
+
+.sb1Label {    
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #000000; 
+	font-size: 10px; 
+	font-weight: bold;
+	text-decoration: none; 
+}
+.sb1NavBarOption {    
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #FFFFFF; 
+         background-color:#2A6283;
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none; 
+         text-align: center;
+         vertical-align: middle;
+         width: 120px;
+         height: 12px;
+         white-space: nowrap;
+         border: solid;
+         border-width: 1px;
+         border-color: #FFFFFF;
+         border-top: none; 
+         border-bottom: none;
+         border-right: none;
+         padding-left:10px;
+		 padding-right:10px;
+}
+
+.sb1NavBarOptionSelected {    
+	font-family: Arial, Verdana, Helvetica, sans-serif; 
+	color: #FFFFCC; 
+         background-color:#3984B0;
+	font-size: 12px; 
+	font-weight: bold;
+	text-decoration: none; 
+         text-align: center;
+         vertical-align: middle;
+         width: 100px;
+         height: 12px;
+         white-space: nowrap;
+         border: solid;
+         border-width: 1px;
+         border-color: #FFFFFF;
+         border-top: none; 
+         border-bottom: none;
+         border-right: none;
+         padding-left:10px;
+}
+
+
+td.text7 {
+	font-size:18px;
+	color:#000;
+}
+.prodTd1 {
+/*	border-right:#006a00 1px solid;*/
+color:#009900;
+	padding-left:25px;
+	width:190px;
+	float:left;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+}
+.prodTd1 a{
+color:#009900;
+	text-decoration:underline; 
+ }
+.prodTd1 {
+color:#00CC00;
+	text-decoration:none;
+}
+select {
+	border:#CCC 2px solid;
+	padding:3px;
+}
+.report_header_border {
+border-bottom-color:#008206;
+}
+.sb1GreenInfoBoxLabel2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+    color:#FFFFFF;
+    /*background-color: #008206;*/
+	background-image:url(../plmis_img/grn-top-bg.jpg);
+	background-repeat:repeat-x;
+	
+	font-size:15px; /* 16667 changed from 10 to 12 */
+	font-weight: bold;
+	text-decoration: none;
+}
+.sb1FormLabelnew {
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	color: navy; 
+	font-size: 12px; 
+	font-weight: normal;
+         background-color: #FFFFFF;
+	text-decoration: bold;
+	text-align:left; 
+}
+.sb1GeenGradientBoxMiddlenew { 
+         font-size:12px; /* 16667 from 11 to 12 */
+         font-family: Verdana, Arial, Helvetica, sans-serif; 
+         color: #444444;
+		 text-decoration:none;
+		 text-align:left;
+}

@@ -1,0 +1,434 @@
+<?php
+/**
+ *  phtml for Inventory List of Cold Chain Equipment by Facility
+ */
+?>
+<!-- Content -->
+<div class="page-content-wrapper">
+    <div class="page-content">
+        <h3 class="page-title"><?php echo $this->translate($this->main_heading) ?></h3>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <div class="portlet box green">
+                    <div class="portlet-title">
+                        <div class="caption">
+                            <?php echo $this->translate($this->report_title) ?>
+                        </div>
+                        <div class="tools">
+                            <a href="javascript:;" class="collapse">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <form method="POST" name="search" id="search" action="" >
+                                    <div class="row">                                        
+                                        <?php $this->allLevelComboAllColdChainEquipment(array("level" => $this->form_values['office'], "province" => $this->form_values['combo1'], "district" => $this->form_values['combo2'], "warehouse" => $this->form_values['warehouse']), "", ""); ?>
+                                        <div class="col-md-3">
+                                            <label>&nbsp;</label>
+                                            <div class="controls">
+                                                <button type="submit" id="go" class="btn btn-success"><?php echo $this->translate("Search"); ?></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 margin-bottom-20 margin-top-20">
+                                <?php
+                                echo App_Controller_Functions::getPageNarrative(Zend_Registry::get('resource'));
+                                ?>
+                            </div>
+                        </div>
+                        <?php
+                        if (empty($this->refrigerator_list) && empty($this->coldbox_list) && empty($this->coldroom_list) &&
+                                empty($this->icepack_list) && empty($this->generator_list) && empty($this->voltageregulator_list)) {
+                            ?>
+                            <div class="row">
+                                <div class="col-md-12 text-center margin-bottom-20 margin-top-20">
+                                    <?php echo $this->translate("No cold chain inventory found at this facility"); ?>
+                                </div>
+                            </div>
+                            <?php
+                        } else {
+                            ?>
+                            <div class="row">
+                                <div class="col-md-12 right">
+
+                                    <img src="<?php echo $this->baseUrl(); ?>/images/excel-32.png" onClick="tableToExcel('export', 'sheet 1', '<?php echo 'Inventory List'; ?>')" alt="Excel" style="cursor:pointer;" />
+                                </div>
+                                <br>
+                                <br>
+                                <div  id="export">
+                                    <style>
+                                        table#myTable{margin-top:0px !important; color: #000;}
+                                        table#myTable{margin-top:20px;border-collapse: collapse;border-spacing: 0; border:1px solid #999;}
+                                        table#myTable tr td{font-size:11px;padding:3px; text-align:left; border:1px solid #999; color: #000;}
+                                        table#myTable tr th{font-size:11px;padding:3px; text-align:center; border:1px solid #999; color: #000;}
+                                        table#myTable tr td.TAR{text-align:right; padding:5px;width:50px !important;}
+                                        .sb1NormalFont {color: #444444; font-size: 11px; font-weight: bold; text-decoration: none;}
+                                        p{margin-bottom:5px; font-size:11px !important; line-height:1 !important; padding:0 !important; color: #000;}
+                                        table#headerTable tr td{ font-size:11px; color: #000;}
+                                        h4{margin:0; color: #000; font-size:14px;}
+                                        h5{margin:15px 0 5px 0; color: #000;}
+                                        h6{margin:0; color: #000; font-size:12px;}
+                                        .right{text-align:right !important;}
+                                        .center{text-align:center !important;}
+
+                                        /* Print styles */
+                                        @media only print
+                                        {
+                                            table#myTable{margin-top:0px !important;}
+                                            table#myTable tr th{font-size:8px;padding:3px !important; text-align:center; border:1px solid #999; color: #000;}
+                                            table#myTable tr td{font-size:8px;padding:3px !important; text-align:left; border:1px solid #999; color: #000;}
+                                            #doNotPrint{display: none !important;}
+                                            h4{margin:0; color: #000;}
+                                            h5{margin:0; color: #000;}
+                                            h6{margin:0; color: #000;}
+                                            p{margin-bottom:5px; font-size:11px !important; line-height:1 !important; padding:0 !important; color: #000;}    
+                                        }
+                                    </style>
+
+
+                                    <script>
+                                        function printContents() {
+                                            var w = 900;
+                                            var h = screen.height;
+                                            var left = Number((screen.width / 2) - (w / 2));
+                                            var top = Number((screen.height / 2) - (h / 2));
+                                            var dispSetting = "toolbar=yes,location=no,directories=yes,menubar=yes,scrollbars=yes,left=" + left + ",top=" + top + ",width=" + w + ",height=" + h;
+                                            var printingContents = document.getElementById("export").innerHTML;
+                                            var docprint = window.open("", "", dispSetting);
+                                            docprint.document.open();
+                                            docprint.document.write('<html><head>');
+                                            docprint.document.write('</head><body onLoad="self.print();self.close();"><center>');
+                                            docprint.document.write(printingContents);
+                                            docprint.document.write('</center></body></html>');
+                                            docprint.document.close();
+                                            docprint.focus();
+                                        }
+
+                                    </script>
+                                    <div class="col-md-12">
+                                        <?php
+                                        if ($this->refrigerator_list && count($this->refrigerator_list) > 0) {
+                                            ?>
+                                            <table class="workingStatus table table-striped table-bordered" id="myTable">
+                                                <!-- Table heading -->
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="13"><?php echo $this->translate("Refrigerators/Freezers"); ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <th><?php echo $this->translate("Store"); ?></th>
+                                                        <th><?php echo $this->translate("Catalogue ID"); ?></th>
+                                                        <th><?php echo $this->translate("Asset ID"); ?></th>
+                                                        <th><?php echo $this->translate("Model Name") ?></th>
+                                                        <th><?php echo $this->translate("Manufacture Name") ?></th>
+                                                        <th><?php echo $this->translate("Serial Number") ?></th>
+                                                        <th><?php echo $this->translate("Refrigerant Gas Type") ?></th>
+                                                        <th><?php echo $this->translate("Net Volume +2/+8C") ?></th>
+                                                        <th><?php echo $this->translate("Net Volume -20C") ?></th>
+                                                        <th><?php echo $this->translate("Year of Supply") ?></th>
+                                                        <th><?php echo $this->translate("Source of Supply") ?></th>
+                                                        <th><?php echo $this->translate("Working Status") ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- // Table heading END -->
+                                                <tbody>
+                                                    <!-- Table row -->
+                                                    <?php
+                                                    $total4 = 0;
+                                                    $total20 = 0;
+                                                    foreach ($this->refrigerator_list as $row):
+                                                        $total4 += $row['net_capacity_4'];
+                                                        $total20 += $row['net_capacity_20'];
+                                                        ?>
+                                                        <tr class="gradeX">
+                                                            <td><?= $row['warehouse_name']; ?></td>
+                                                            <td><?= $row['Cat_ID']; ?></td>
+                                                            <td><?= $row['asset_id']; ?></td>
+                                                            <td><?= $row['Model']; ?></td>
+                                                            <td><?= $row['Manufacturer']; ?></td>
+                                                            <td><?= $row['Serial_No']; ?></td>
+                                                            <td><?= $row['Refrigerator_Gas_Type']; ?></td>
+                                                            <td class="right"><?= $row['net_capacity_4']; ?></td>
+                                                            <td class="right"><?= $row['net_capacity_20']; ?></td>
+                                                            <td><?= $row['working_since']; ?></td>
+                                                            <td><?= $row['stakeholder_name']; ?></td>
+                                                            <td><?= $row['ccm_status_list_name']; ?></td>
+                                                        </tr>
+                                                        <?php
+                                                    endforeach;
+                                                    ?>
+                                                    <!-- // Table row END -->
+                                                </tbody>
+                                                <!-- // Table body END -->
+                                                <tfoot>
+                                                <th colspan="6" class="right">Total</th>
+                                                <th class="right"><?php echo $total4; ?></th>
+                                                <th class="right"><?php echo $total20; ?></th>
+                                                <th colspan="3"></th>
+                                                </tfoot>
+                                            </table>
+                                        <?php }
+                                        ?>
+
+                                        <?php
+                                        if ($this->coldroom_list && count($this->coldroom_list) > 0) {
+                                            ?>
+                                            <br>
+                                            <table class="workingStatus table table-striped table-bordered " id="myTable">
+                                                <!-- Table heading -->
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="13"><?php echo $this->translate("Cold Rooms"); ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <th><?php echo $this->translate("Store"); ?></th>
+                                                        <th><?php echo $this->translate("Asset ID"); ?></th>
+                                                        <th><?php echo $this->translate("Model Name") ?></th>
+                                                        <th><?php echo $this->translate("Manufacture Name") ?></th>
+                                                        <th><?php echo $this->translate("Serial Number") ?></th>
+                                                        <th><?php echo $this->translate("Refrigerant Gas Type") ?></th>
+                                                        <th><?php echo $this->translate("Cooling System") ?></th>
+                                                        <th><?php echo $this->translate("Net Volume +2/+8C") ?></th>
+                                                        <th><?php echo $this->translate("Net Volume -20C") ?></th>
+                                                        <th><?php echo $this->translate("Year of Supply") ?></th>
+                                                        <th><?php echo $this->translate("Source of Supply") ?></th>
+                                                        <th><?php echo $this->translate("Working Status") ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- // Table heading END -->
+                                                <tbody>
+                                                    <!-- Table row -->
+                                                    <?php
+                                                    $total4 = 0;
+                                                    $total20 = 0;
+                                                    foreach ($this->coldroom_list as $row1):
+                                                        $total4 += $row1['net_capacity_4'];
+                                                        $total20 += $row1['net_capacity_20'];
+                                                        ?>
+                                                        <tr class="gradeX">
+                                                            <td><?= $row1['warehouse_name']; ?></td>
+                                                            <td><?= $row1['asset_id']; ?></td>
+                                                            <td><?= $row1['ccm_model_name']; ?></td>
+                                                            <td><?= $row1['ccm_make_name']; ?></td>
+                                                            <td><?= $row1['serial_number']; ?></td>
+                                                            <td><?= $row1['list_value']; ?></td>
+                                                            <td><?= $row1['cooling_system']; ?></td>
+                                                            <td class="right"><?= $row1['net_capacity_4']; ?></td>
+                                                            <td class="right"><?= $row1['net_capacity_20']; ?></td>
+                                                            <td><?= $row1['Supply_Year']; ?></td>
+                                                            <td><?= $row1['stakeholder_name']; ?></td>
+                                                            <td><?= $row1['ccm_status_list_name']; ?></td>
+                                                        </tr>
+                                                        <?php
+                                                    endforeach;
+                                                    ?>
+                                                    <!-- // Table row END -->
+                                                </tbody>
+                                                <!-- // Table body END -->
+                                                <tfoot>
+                                                <th colspan="6" class="right">Total</th>
+                                                <th class="right"><?php echo $total4; ?></th>
+                                                <th class="right"><?php echo $total20; ?></th>
+                                                <th colspan="3"></th>
+                                                </tfoot>
+                                            </table>
+                                        <?php }
+                                        ?>
+
+                                        <?php
+                                        if ($this->coldbox_list && count($this->coldbox_list) > 0) {
+                                            ?>
+                                            <br>
+                                            <table class="workingStatus table table-striped table-bordered " id="myTable">
+                                                <!-- Table heading -->
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="13"><?php echo $this->translate("Cold Boxes"); ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <th><?php echo $this->translate("Store"); ?></th>
+                                                        <th><?php echo $this->translate("Catalogue ID"); ?></th>
+                                                        <th><?php echo $this->translate("Asset ID"); ?></th>
+                                                        <th><?php echo $this->translate("Carrier Type") ?></th>
+                                                        <th><?php echo $this->translate("Model Name") ?></th>
+                                                        <th><?php echo $this->translate("Manufacture Name") ?></th>
+                                                        <th><?php echo $this->translate("Net Vaccine Storage Capacity") ?></th>
+                                                        <th><?php echo $this->translate("External Dimensions") ?></th>
+                                                        <th><?php echo $this->translate("Internal Dimensions") ?></th>
+                                                        <th><?php echo $this->translate("Vaccine Storage Dimensions") ?></th>
+                                                        <th><?php echo $this->translate("Cold Life Without Opening") ?></th>
+
+                                                        <th><?php echo $this->translate("Quantity Present") ?></th>
+                                                        <th><?php echo $this->translate("Quantity Not Working") ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- // Table heading END -->
+                                                <tbody>
+                                                    <!-- Table row -->
+                                                    <?php
+                                                    $total4 = 0;
+                                                    $total = 0;
+                                                    $totalNotWorking = 0;
+                                                    $cost = 0;
+                                                    foreach ($this->coldbox_list as $row2):
+                                                        $total4 += $row2['net_capacity_4'];
+                                                        $totalNotWorking += $row2['quantity'];
+                                                        $total += $row2['working_quantity'];
+                                                        ?>
+                                                        <tr class="gradeX">
+                                                            <td><?= $row1['warehouse_name']; ?></td>
+                                                            <td><?= $row2['catalogue_id']; ?></td>
+                                                             <td><?= $row2['asset_id']; ?></td>
+                                                            <td><?= $row2['asset_type_name3']; ?></td>
+                                                            <td><?= $row2['ccm_model_name']; ?></td>
+                                                            <td><?= $row2['ccm_make_name']; ?></td>
+                                                            <td class="right"><?= $row2['net_capacity_4']; ?></td>
+                                                            <td class="right"><?= $row2['externalDim']; ?></td>
+                                                            <td class="right"><?= $row2['internalDim']; ?></td>                                                      
+                                                            <td><?= $row2['storageDim']; ?></td>
+                                                            <td></td>
+
+                                                            <td class="right"><?= $row2['working_quantity']; ?></td>
+                                                            <td class="right"><?= $row2['quantity']; ?></td>
+                                                        </tr>
+                                                        <?php
+                                                    endforeach;
+                                                    ?>
+                                                    <!-- // Table row END -->
+                                                </tbody>
+                                                <!-- // Table body END -->
+                                                <tfoot>
+                                                <th colspan="5" class="right">Total</th>
+                                                <th class="right"><?php echo $total4; ?></th>
+                                                <th colspan="4"></th>
+                                                <th class="right"><?php echo $total; ?></th>
+                                                <th class="right"><?php echo $totalNotWorking; ?></th>
+                                                </tfoot>
+                                            </table>
+                                        <?php }
+                                        ?>
+
+
+                                        <?php
+                                        if ($this->voltageregulator_list && count($this->voltageregulator_list) > 0) {
+                                            ?>
+                                            <br>
+                                            <table class="workingStatus table table-striped table-bordered " id="myTable">
+                                                <!-- Table heading -->
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="13"><?php echo $this->translate("Voltage Regulators"); ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <th><?php echo $this->translate("Store"); ?></th>
+                                                        <th><?php echo $this->translate("CCEM ID"); ?></th>
+                                                        <th><?php echo $this->translate("Catalogue ID") ?></th>
+                                                        <th ><?php echo $this->translate("Manufacture Name") ?></th>
+                                                        <th ><?php echo $this->translate("Model Number") ?></th>
+                                                        <th ><?php echo $this->translate("Phases") ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- // Table heading END -->
+                                                <tbody>
+                                                    <!-- Table row -->
+                                                    <?php
+                                                    foreach ($this->voltageregulator_list as $row4):
+                                                        ?>
+                                                        <tr class="gradeX">
+                                                            <td><?= $row4['warehouse_name']; ?></td>
+                                                            <td><?= $row4['ccem_id']; ?></td>
+                                                            <td><?= $row4['catalogue_id']; ?></td>
+                                                            <td><?= $row4['ccm_make_name']; ?></td>
+                                                            <td><?= $row4['ccm_model_name']; ?></td>
+                                                            <td class="right"><?= $row4['no_of_phases']; ?></td>
+                                                        </tr>
+                                                        <?php
+                                                    endforeach;
+                                                    ?>
+                                                    <!-- // Table row END -->
+                                                </tbody>
+                                                <!-- // Table body END -->
+                                            </table>
+                                        <?php }
+                                        ?>
+
+                                        <?php
+                                        if ($this->generator_list && count($this->generator_list) > 0) {
+                                            ?>
+                                            <br>
+                                            <table class="workingStatus table table-striped table-bordered " id="myTable">
+                                                <!-- Table heading -->
+                                                <thead>
+                                                    <tr>
+                                                        <th colspan="13"><?php echo $this->translate("Generators"); ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <th><?php echo $this->translate("Store"); ?></th>
+                                                        <th><?php echo $this->translate("Model Name"); ?></th>
+                                                        <th ><?php echo $this->translate("Manufacture Name") ?></th>
+                                                        <th ><?php echo $this->translate("Serial Number") ?></th>
+                                                        <th ><?php echo $this->translate("Power Source") ?></th>
+                                                        <th ><?php echo $this->translate("Power Rating") ?></th>
+                                                        <th ><?php echo $this->translate("Auto Start") ?></th>
+                                                        <th ><?php echo $this->translate("Number of Phases") ?></th>
+                                                        <th ><?php echo $this->translate("Year of Supply") ?></th>
+                                                        <th ><?php echo $this->translate("Working Status") ?></th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- // Table heading END -->
+                                                <tbody>
+                                                    <!-- Table row -->
+                                                    <?php
+                                                    foreach ($this->generator_list as $row5):
+                                                        ?>
+                                                        <tr class="gradeX">
+                                                            <td><?= $row4['warehouse_name']; ?></td>
+                                                            <td><?= $row5['ccm_model_name']; ?></td>
+                                                            <td><?= $row5['ccm_make_name']; ?></td>
+                                                            <td><?= $row5['serial_number']; ?></td>
+                                                            <td><?= $row5['power_source']; ?></td>
+                                                            <td class="right"><?= $row5['power_rating']; ?></td>
+                                                            <td><?= $row5['automatic_start_mechanism']; ?></td>
+                                                            <td class="right"><?= $row5['no_of_phases']; ?></td>
+                                                            <td><?= $row5['Supply_Year']; ?></td>
+                                                            <td><?= $row5['ccm_status_list_name']; ?></td>
+                                                        </tr>
+                                                        <?php
+                                                    endforeach;
+                                                    ?>
+                                                    <!-- // Table row END -->
+                                                </tbody>
+                                                <!-- // Table body END -->
+                                            </table>
+                                        <?php }
+                                        ?>
+                                    </div>
+                                </div>
+                            </div>
+                            <?php
+                        }
+                        ?>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,38 @@
+<rows profile='color'><head><columns><column  colspan="7"  width='50' align='center' type='ro' sort='na' color=''><![CDATA[Field Stock  Availibility Report for Stakeholder(s) = 'PWD' Province/Region = 'Punjab' And Product = 'Condom' (Apr-2016) ]]></column><column  width='200' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='369' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='200' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='120' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='70' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='50' align='center' type='ro' sort='na' color=''><![CDATA[]]></column></columns>
+<columns><column><![CDATA[Sr. No.]]></column><column><![CDATA[District]]></column><column><![CDATA[Health Facility]]></column><column><![CDATA[Average Monthly Consumption]]></column><column><![CDATA[Stock on Hand]]></column><column colspan="2" ><![CDATA[Month of Stock]]></column><column><![CDATA[]]></column></columns></head>
+<foot>
+<columns>
+<column colspan='14' ><![CDATA[Note: This report does not inclulde (RHS-B;MSU;Social Mobilizer;PLDs;RMPS;Hakeems;Homopaths;DDPs;TBAs;Counters)]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+</columns>
+</foot><row><cell><![CDATA[1]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Lodhran City-II]]></cell><cell><![CDATA[740]]></cell><cell><![CDATA[2,010]]></cell><cell><![CDATA[2.72]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[2]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Super Chowk]]></cell><cell><![CDATA[1,193]]></cell><cell><![CDATA[2,540]]></cell><cell><![CDATA[2.13]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[3]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Adam Wahin]]></cell><cell><![CDATA[1,033]]></cell><cell><![CDATA[2,830]]></cell><cell><![CDATA[2.74]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[4]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Kotha utera]]></cell><cell><![CDATA[913]]></cell><cell><![CDATA[2,566]]></cell><cell><![CDATA[2.81]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[5]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Danwran]]></cell><cell><![CDATA[907]]></cell><cell><![CDATA[2,130]]></cell><cell><![CDATA[2.35]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[6]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Kotla Ali Dasti]]></cell><cell><![CDATA[820]]></cell><cell><![CDATA[2,110]]></cell><cell><![CDATA[2.57]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[7]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Gogran]]></cell><cell><![CDATA[920]]></cell><cell><![CDATA[2,440]]></cell><cell><![CDATA[2.65]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[8]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Sui Wala]]></cell><cell><![CDATA[860]]></cell><cell><![CDATA[2,510]]></cell><cell><![CDATA[2.92]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[9]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Murad Pur]]></cell><cell><![CDATA[907]]></cell><cell><![CDATA[2,830]]></cell><cell><![CDATA[3.12]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[10]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Nai Basti]]></cell><cell><![CDATA[680]]></cell><cell><![CDATA[2,240]]></cell><cell><![CDATA[3.29]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[11]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Chak Himta]]></cell><cell><![CDATA[967]]></cell><cell><![CDATA[2,680]]></cell><cell><![CDATA[2.77]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[12]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Rawani]]></cell><cell><![CDATA[1,033]]></cell><cell><![CDATA[3,060]]></cell><cell><![CDATA[2.96]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[13]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Dunya Pur-II]]></cell><cell><![CDATA[840]]></cell><cell><![CDATA[3,245]]></cell><cell><![CDATA[3.86]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[14]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Makhdoom Aali]]></cell><cell><![CDATA[833]]></cell><cell><![CDATA[1,700]]></cell><cell><![CDATA[2.04]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[15]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Qutab Pur]]></cell><cell><![CDATA[807]]></cell><cell><![CDATA[3,030]]></cell><cell><![CDATA[3.75]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[16]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC RHC 231-WB]]></cell><cell><![CDATA[1,100]]></cell><cell><![CDATA[2,980]]></cell><cell><![CDATA[2.71]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[17]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Chak No. 362-WB]]></cell><cell><![CDATA[1,120]]></cell><cell><![CDATA[2,700]]></cell><cell><![CDATA[2.41]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[18]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Chak No. 356-WB]]></cell><cell><![CDATA[933]]></cell><cell><![CDATA[3,198]]></cell><cell><![CDATA[3.43]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[19]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Kehror Pacca]]></cell><cell><![CDATA[847]]></cell><cell><![CDATA[2,650]]></cell><cell><![CDATA[3.13]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[20]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Multani Wala]]></cell><cell><![CDATA[880]]></cell><cell><![CDATA[3,190]]></cell><cell><![CDATA[3.62]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[21]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Massa Kotha]]></cell><cell><![CDATA[1,027]]></cell><cell><![CDATA[3,060]]></cell><cell><![CDATA[2.98]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[22]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Ameer Pur Sadat]]></cell><cell><![CDATA[880]]></cell><cell><![CDATA[3,040]]></cell><cell><![CDATA[3.45]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[23]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Ameer Pur Station]]></cell><cell><![CDATA[1,000]]></cell><cell><![CDATA[3,490]]></cell><cell><![CDATA[3.49]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[24]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Hasil Wala]]></cell><cell><![CDATA[587]]></cell><cell><![CDATA[2,140]]></cell><cell><![CDATA[3.65]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[25]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Rend Jada]]></cell><cell><![CDATA[847]]></cell><cell><![CDATA[3,320]]></cell><cell><![CDATA[3.92]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[26]]></cell><cell><![CDATA[Lodhran]]></cell><cell><![CDATA[FWC Chumb Kalyar]]></cell><cell><![CDATA[727]]></cell><cell><![CDATA[2,800]]></cell><cell><![CDATA[3.85]]></cell><cell><![CDATA[]]></cell></row></rows>

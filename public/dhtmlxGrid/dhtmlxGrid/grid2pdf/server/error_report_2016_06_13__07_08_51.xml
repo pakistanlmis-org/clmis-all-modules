@@ -1,0 +1,31 @@
+<rows profile='color'><head><columns><column  colspan="7"  width='50' align='center' type='ro' sort='na' color=''><![CDATA[Field Stock  Availibility Report for Stakeholder(s) = 'PWD' Province/Region = 'Punjab' And Product = 'COC' (May-2016) ]]></column><column  width='200' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='370' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='200' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='120' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='70' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='50' align='center' type='ro' sort='na' color=''><![CDATA[]]></column></columns>
+<columns><column><![CDATA[Sr. No.]]></column><column><![CDATA[District]]></column><column><![CDATA[Health Facility]]></column><column><![CDATA[Average Monthly Consumption]]></column><column><![CDATA[Stock on Hand]]></column><column colspan="2" ><![CDATA[Month of Stock]]></column><column><![CDATA[]]></column></columns></head>
+<foot>
+<columns>
+<column colspan='14' ><![CDATA[Note: This report does not inclulde (RHS-B;MSU;Social Mobilizer;PLDs;RMPS;Hakeems;Homopaths;DDPs;TBAs;Counters)]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+</columns>
+</foot><row><cell><![CDATA[1]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Talwindi Bhandran]]></cell><cell><![CDATA[28]]></cell><cell><![CDATA[16]]></cell><cell><![CDATA[0.57]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[2]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Sughra Shafi Hospital Narowal]]></cell><cell><![CDATA[25]]></cell><cell><![CDATA[7]]></cell><cell><![CDATA[0.28]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[3]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Dariawala]]></cell><cell><![CDATA[35]]></cell><cell><![CDATA[28]]></cell><cell><![CDATA[0.80]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[4]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Feroze Pur]]></cell><cell><![CDATA[28]]></cell><cell><![CDATA[20]]></cell><cell><![CDATA[0.71]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[5]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Marara]]></cell><cell><![CDATA[36]]></cell><cell><![CDATA[9]]></cell><cell><![CDATA[0.25]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[6]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[FWC Kot Naina]]></cell><cell><![CDATA[29]]></cell><cell><![CDATA[15]]></cell><cell><![CDATA[0.52]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[7]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Bagha]]></cell><cell><![CDATA[28]]></cell><cell><![CDATA[3]]></cell><cell><![CDATA[0.11]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[8]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Chak Amru]]></cell><cell><![CDATA[30]]></cell><cell><![CDATA[8]]></cell><cell><![CDATA[0.27]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[9]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Dailra]]></cell><cell><![CDATA[25]]></cell><cell><![CDATA[10]]></cell><cell><![CDATA[0.40]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[10]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Dingha Nairain]]></cell><cell><![CDATA[15]]></cell><cell><![CDATA[0]]></cell><cell><![CDATA[0.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[11]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Doud/Behnian]]></cell><cell><![CDATA[21]]></cell><cell><![CDATA[0]]></cell><cell><![CDATA[0.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[12]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Ghanj Hussain Abad]]></cell><cell><![CDATA[19]]></cell><cell><![CDATA[8]]></cell><cell><![CDATA[0.42]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[13]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Jandiala]]></cell><cell><![CDATA[12]]></cell><cell><![CDATA[0]]></cell><cell><![CDATA[0.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[14]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Jandran Sharif]]></cell><cell><![CDATA[17]]></cell><cell><![CDATA[0]]></cell><cell><![CDATA[0.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[15]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Narowal.III]]></cell><cell><![CDATA[32]]></cell><cell><![CDATA[18]]></cell><cell><![CDATA[0.56]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[16]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Niddokay]]></cell><cell><![CDATA[31]]></cell><cell><![CDATA[20]]></cell><cell><![CDATA[0.65]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[17]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Nonar]]></cell><cell><![CDATA[15]]></cell><cell><![CDATA[6]]></cell><cell><![CDATA[0.40]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[18]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Sarjal]]></cell><cell><![CDATA[16]]></cell><cell><![CDATA[15]]></cell><cell><![CDATA[0.94]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[19]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Sheikh Pur Char]]></cell><cell><![CDATA[25]]></cell><cell><![CDATA[5]]></cell><cell><![CDATA[0.20]]></cell><cell><![CDATA[]]></cell></row></rows>

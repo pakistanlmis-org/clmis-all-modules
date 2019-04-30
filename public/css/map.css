@@ -1,0 +1,245 @@
+         
+	#map{
+		position: relative;
+		width:100%;
+                height:718px;
+		border:1px solid black;
+	}
+        
+        #mapTitle{
+                position: absolute;
+		width:41%;
+                height:auto;
+                top:4%;
+                left:1%;
+                display:block;
+                font-weight:bold;
+                text-align:center;
+                padding:1px;
+                z-index:2000;
+        }
+	
+	#infoDiv{
+		display:block;
+		position:absolute;
+		padding:5px;
+		border-radius:5px;
+		background-color:green;
+                color:white;
+		border:1px solid #d3d3d3;
+		width:auto;
+		height:auto;
+		top:22%;
+		left:2%;
+		z-index: 3000;
+                font-size:13px;  
+                font-weight:bold;
+                opacity:0.9;
+	}
+        
+        .infoTable{
+            width:100%;
+            font-size:12px;
+            color:black;
+            background-color:white;
+        }
+        
+        .infoTable tr td{
+                width:120px;
+                padding-left: 5px;
+        }
+
+        .infoTable tr:hover {
+          background-color: #C7F610;
+        }
+        
+	#loader{
+	    display:none;
+            width: 120px;
+	    height: 120px;
+	    position:absolute;
+	    left:45%;
+	    top:40%;
+	    z-index: 3000;
+	}
+	
+	#image{
+            cursor: pointer;
+            height: 33px;
+            width: 35px;
+	}
+        
+        #print{
+            cursor: pointer;
+            height: 33px;
+            margin-left: 12px;
+            width: 35px;
+        }
+        
+        #printedDate{
+                position: absolute;
+                display:none;
+		width:auto;
+                height:auto;
+                top:95%;
+                left:1%;
+                font-weight:bold;
+                font-size:13px;
+                text-align:center;
+                z-index:2000;
+        }
+        
+        #legendDiv{
+            display:none;
+            position:absolute;
+            padding:5px;
+            border-radius:0px;
+            background-color:none;
+            border:1px solid black;
+            width:auto;
+            height:auto;
+            top:65%;
+            left:75%;
+            z-index: 9000;   
+        }
+
+        #legend{
+            width:100%;
+            font-size:11px;
+            font-weight:bold;
+            color:black;
+        }
+        
+        td, th{
+            padding:2px;
+        }
+
+        #popNote{
+                position: absolute;
+		width:auto;
+                height:auto;
+                top:95%;
+                left:30%;
+                font-weight:bold;
+                font-size:13px;
+                text-align:center;
+                z-index:2000;
+        }
+        
+        #mosDefination{
+                display:none;
+                position:absolute;
+                padding:5px;
+                border:1px solid green;
+                width:auto;
+                height:auto;
+                top:46%;
+                font-size:9px;
+                font-weight:bold;
+                left:75%;
+                z-index: 1000;
+                border-radius:5px;
+                z-index:2000;
+        }
+        
+        #mosRanges tr td{
+             font-size: 11px;
+             font-weight: bold;
+        }
+          
+        .undo{
+            border-radius: 0 !important;
+            border-width: 0;
+            box-shadow: none !important;
+            font-size: 11px;
+            outline: medium none !important;
+            padding: 4px 10px;
+            color:white;
+            text-shadow: none;
+            background-color : rgb(53, 170, 71);
+        }
+        
+        .col-md-2,.col-md-6,.col-md-7,.col-md-3,.col-md-10,.col-md-9,.col-md-5,.col-md-8,.col-md-4{
+            padding-right:2px;
+            padding-left:2px;
+        }
+        .col-md-12{
+            padding-right:2px;
+            padding-left:2px;
+        }
+        
+        #controls {
+                height: 100%;
+                left: 0;
+                top: 0;
+                z-index: 9000;
+        }
+        
+        #customZoom {
+                z-index: 1001;
+                position: relative;
+                top: 20px;
+
+        }
+            
+        #customZoom a {
+                text-decoration: none;
+                position: absolute;
+                display: block;
+                left:90%;
+                width: 60px;
+                height:22px;
+                text-align: center;
+                font-weight: bold;
+                color: white;
+                background: green;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                font-size:13px;
+            }
+            
+        #customZoom a:hover {
+                background: #036;
+            }
+            
+        #customZoomOut {
+                top: 25px;
+            }
+            
+        #districtRanking{
+             width:100%;
+             height:350px;
+             overflow: auto;    
+            }
+            
+        #attributeGrid{
+             width:100%;
+             height:350px;
+             overflow: auto;    
+            }
+            
+        #slider label {
+                position: absolute;
+                width: 10px;
+                margin-left: -10px;
+                text-align: center;
+                margin-top: 20px;
+                font-size:13px;
+                cursor:pointer;
+            }
+
+  
+        #slider{
+                width: 95%;
+                margin: 2em auto;
+                background:#F0F0F0; 
+                border:1px solid green;
+            }
+
+        .bold{
+            font-weight: bold;
+            font-size:12px;
+            border-radius:5px;
+        }
+        
+       

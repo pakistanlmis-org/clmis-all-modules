@@ -1,0 +1,51 @@
+<rows profile='color'><head><columns><column  colspan="7"  width='50' align='center' type='ro' sort='na' color=''><![CDATA[Field Stock  Availibility Report for Stakeholder(s) = 'PWD' Province/Region = 'Punjab' And Product = 'Condom' (Mar-2016) ]]></column><column  width='200' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='365' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='200' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='120' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='70' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='50' align='center' type='ro' sort='na' color=''><![CDATA[]]></column></columns>
+<columns><column><![CDATA[Sr. No.]]></column><column><![CDATA[District]]></column><column><![CDATA[Health Facility]]></column><column><![CDATA[Average Monthly Consumption]]></column><column><![CDATA[Stock on Hand]]></column><column colspan="2" ><![CDATA[Month of Stock]]></column><column><![CDATA[]]></column></columns></head>
+<foot>
+<columns>
+<column colspan='14' ><![CDATA[Note: This report does not inclulde (RHS-B;MSU;Social Mobilizer;PLDs;RMPS;Hakeems;Homopaths;DDPs;TBAs;Counters)]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+</columns>
+</foot><row><cell><![CDATA[1]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Layyah-I]]></cell><cell><![CDATA[1,387]]></cell><cell><![CDATA[2,840]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[2]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Layyah-II]]></cell><cell><![CDATA[1,487]]></cell><cell><![CDATA[3,160]]></cell><cell><![CDATA[2.13]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[3]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Layyah-III]]></cell><cell><![CDATA[1,310]]></cell><cell><![CDATA[3,460]]></cell><cell><![CDATA[2.64]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[4]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Shah Habeeb]]></cell><cell><![CDATA[1,469]]></cell><cell><![CDATA[3,044]]></cell><cell><![CDATA[2.07]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[5]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Jaman Shah]]></cell><cell><![CDATA[1,040]]></cell><cell><![CDATA[3,150]]></cell><cell><![CDATA[3.03]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[6]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Kot Sultan]]></cell><cell><![CDATA[1,363]]></cell><cell><![CDATA[2,939]]></cell><cell><![CDATA[2.16]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[7]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Pahar Pur]]></cell><cell><![CDATA[1,743]]></cell><cell><![CDATA[3,400]]></cell><cell><![CDATA[1.95]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[8]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Peer Jaggi]]></cell><cell><![CDATA[700]]></cell><cell><![CDATA[1,400]]></cell><cell><![CDATA[2.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[9]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Ladhana]]></cell><cell><![CDATA[1,133]]></cell><cell><![CDATA[2,200]]></cell><cell><![CDATA[1.94]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[10]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC 161-TDA]]></cell><cell><![CDATA[1,367]]></cell><cell><![CDATA[2,800]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[11]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Bhagal]]></cell><cell><![CDATA[1,305]]></cell><cell><![CDATA[2,464]]></cell><cell><![CDATA[1.89]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[12]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Chowk Azam-I]]></cell><cell><![CDATA[1,073]]></cell><cell><![CDATA[2,006]]></cell><cell><![CDATA[1.87]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[13]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Chowk Azam-II]]></cell><cell><![CDATA[1,307]]></cell><cell><![CDATA[2,680]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[14]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC 124-TDA]]></cell><cell><![CDATA[1,203]]></cell><cell><![CDATA[2,420]]></cell><cell><![CDATA[2.01]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[15]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Noshera]]></cell><cell><![CDATA[1,100]]></cell><cell><![CDATA[1,800]]></cell><cell><![CDATA[1.64]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[16]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FHC  Layyah]]></cell><cell><![CDATA[1,097]]></cell><cell><![CDATA[2,250]]></cell><cell><![CDATA[2.05]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[17]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Karor]]></cell><cell><![CDATA[790]]></cell><cell><![CDATA[930]]></cell><cell><![CDATA[1.18]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[18]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Sargani]]></cell><cell><![CDATA[887]]></cell><cell><![CDATA[2,380]]></cell><cell><![CDATA[2.68]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[19]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC 98-ML]]></cell><cell><![CDATA[903]]></cell><cell><![CDATA[1,830]]></cell><cell><![CDATA[2.03]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[20]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC 111-ML]]></cell><cell><![CDATA[950]]></cell><cell><![CDATA[1,730]]></cell><cell><![CDATA[1.82]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[21]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Fateh Pur-I]]></cell><cell><![CDATA[970]]></cell><cell><![CDATA[1,810]]></cell><cell><![CDATA[1.87]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[22]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Fateh Pur-II]]></cell><cell><![CDATA[1,257]]></cell><cell><![CDATA[2,600]]></cell><cell><![CDATA[2.07]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[23]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Shaukat abad]]></cell><cell><![CDATA[563]]></cell><cell><![CDATA[1,080]]></cell><cell><![CDATA[1.92]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[24]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Tibbi Khurd]]></cell><cell><![CDATA[870]]></cell><cell><![CDATA[1,860]]></cell><cell><![CDATA[2.14]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[25]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FHC  Karor]]></cell><cell><![CDATA[1,100]]></cell><cell><![CDATA[2,200]]></cell><cell><![CDATA[2.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[26]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Choubara]]></cell><cell><![CDATA[617]]></cell><cell><![CDATA[1,350]]></cell><cell><![CDATA[2.19]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[27]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC 407-TDA]]></cell><cell><![CDATA[763]]></cell><cell><![CDATA[1,790]]></cell><cell><![CDATA[2.35]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[28]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Rafiq Abad]]></cell><cell><![CDATA[1,233]]></cell><cell><![CDATA[2,940]]></cell><cell><![CDATA[2.38]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[29]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FWC Nawan Kot]]></cell><cell><![CDATA[600]]></cell><cell><![CDATA[1,150]]></cell><cell><![CDATA[1.92]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[30]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[FHC  Choubara]]></cell><cell><![CDATA[833]]></cell><cell><![CDATA[2,100]]></cell><cell><![CDATA[2.52]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[31]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No. 123/TDA]]></cell><cell><![CDATA[687]]></cell><cell><![CDATA[1,940]]></cell><cell><![CDATA[2.82]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[32]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No. 318/TDA]]></cell><cell><![CDATA[707]]></cell><cell><![CDATA[1,346]]></cell><cell><![CDATA[1.90]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[33]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No. 332/TDA]]></cell><cell><![CDATA[873]]></cell><cell><![CDATA[780]]></cell><cell><![CDATA[0.89]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[34]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No. 419/TDA]]></cell><cell><![CDATA[920]]></cell><cell><![CDATA[790]]></cell><cell><![CDATA[0.86]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[35]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No.115-B/TDA]]></cell><cell><![CDATA[992]]></cell><cell><![CDATA[1,016]]></cell><cell><![CDATA[1.02]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[36]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Chak No.146/TDA]]></cell><cell><![CDATA[707]]></cell><cell><![CDATA[1,080]]></cell><cell><![CDATA[1.53]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[37]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Kazmi Chowk]]></cell><cell><![CDATA[858]]></cell><cell><![CDATA[680]]></cell><cell><![CDATA[0.79]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[38]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Mujahid Abad]]></cell><cell><![CDATA[647]]></cell><cell><![CDATA[1,060]]></cell><cell><![CDATA[1.64]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[39]]></cell><cell><![CDATA[Layyah]]></cell><cell><![CDATA[Tibbi Dastian Wala]]></cell><cell><![CDATA[709]]></cell><cell><![CDATA[1,672]]></cell><cell><![CDATA[2.36]]></cell><cell><![CDATA[]]></cell></row></rows>

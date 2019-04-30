@@ -1,0 +1,35 @@
+<rows profile='color'><head><columns><column  colspan="7"  width='50' align='center' type='ro' sort='na' color=''><![CDATA[Field Stock  Availibility Report for Stakeholder(s) = 'DOH (Static HF)' Province/Region = 'Punjab' And Product = 'Condom' (Mar-2016) ]]></column><column  width='200' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='365' align='left' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='200' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='120' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='70' align='right' type='ro' sort='na' color=''><![CDATA[]]></column><column  width='50' align='center' type='ro' sort='na' color=''><![CDATA[]]></column></columns>
+<columns><column><![CDATA[Sr. No.]]></column><column><![CDATA[District]]></column><column><![CDATA[Health Facility]]></column><column><![CDATA[Average Monthly Consumption]]></column><column><![CDATA[Stock on Hand]]></column><column colspan="2" ><![CDATA[Month of Stock]]></column><column><![CDATA[]]></column></columns></head>
+<foot>
+<columns>
+<column colspan='14' ><![CDATA[Note: This report does not inclulde (RHS-B;MSU;Social Mobilizer;PLDs;RMPS;Hakeems;Homopaths;DDPs;TBAs;Counters)]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+<column><![CDATA[]]></column>
+</columns>
+</foot><row><cell><![CDATA[1]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[DHQ Narowal]]></cell><cell><![CDATA[253]]></cell><cell><![CDATA[980]]></cell><cell><![CDATA[3.87]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[2]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Dhadora]]></cell><cell><![CDATA[173]]></cell><cell><![CDATA[390]]></cell><cell><![CDATA[2.25]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[3]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Pakho Kay]]></cell><cell><![CDATA[150]]></cell><cell><![CDATA[560]]></cell><cell><![CDATA[3.73]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[4]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Manak]]></cell><cell><![CDATA[233]]></cell><cell><![CDATA[800]]></cell><cell><![CDATA[3.43]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[5]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Khan Khasa]]></cell><cell><![CDATA[145]]></cell><cell><![CDATA[390]]></cell><cell><![CDATA[2.69]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[6]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Rupo Chak]]></cell><cell><![CDATA[65]]></cell><cell><![CDATA[230]]></cell><cell><![CDATA[3.54]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[7]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Amwal]]></cell><cell><![CDATA[70]]></cell><cell><![CDATA[250]]></cell><cell><![CDATA[3.57]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[8]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Nonar]]></cell><cell><![CDATA[180]]></cell><cell><![CDATA[564]]></cell><cell><![CDATA[3.13]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[9]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Chandar Kay]]></cell><cell><![CDATA[96]]></cell><cell><![CDATA[378]]></cell><cell><![CDATA[3.94]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[10]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Chando Wal]]></cell><cell><![CDATA[200]]></cell><cell><![CDATA[680]]></cell><cell><![CDATA[3.40]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[11]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Bara Manga]]></cell><cell><![CDATA[203]]></cell><cell><![CDATA[480]]></cell><cell><![CDATA[2.36]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[12]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[RHC Kot Naina]]></cell><cell><![CDATA[295]]></cell><cell><![CDATA[800]]></cell><cell><![CDATA[2.71]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[13]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Malak Pur]]></cell><cell><![CDATA[137]]></cell><cell><![CDATA[340]]></cell><cell><![CDATA[2.48]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[14]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Lalian]]></cell><cell><![CDATA[93]]></cell><cell><![CDATA[220]]></cell><cell><![CDATA[2.37]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[15]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Ikhlas Pur]]></cell><cell><![CDATA[150]]></cell><cell><![CDATA[325]]></cell><cell><![CDATA[2.17]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[16]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Chak Amro]]></cell><cell><![CDATA[77]]></cell><cell><![CDATA[182]]></cell><cell><![CDATA[2.36]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[17]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Raiba Kalan]]></cell><cell><![CDATA[113]]></cell><cell><![CDATA[260]]></cell><cell><![CDATA[2.30]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[18]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Delhra]]></cell><cell><![CDATA[200]]></cell><cell><![CDATA[600]]></cell><cell><![CDATA[3.00]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[19]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[RHC Lassar Kalan]]></cell><cell><![CDATA[153]]></cell><cell><![CDATA[350]]></cell><cell><![CDATA[2.29]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[20]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Pindi Porbian]]></cell><cell><![CDATA[53]]></cell><cell><![CDATA[190]]></cell><cell><![CDATA[3.58]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[21]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Babral]]></cell><cell><![CDATA[117]]></cell><cell><![CDATA[300]]></cell><cell><![CDATA[2.56]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[22]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Ghangran]]></cell><cell><![CDATA[170]]></cell><cell><![CDATA[400]]></cell><cell><![CDATA[2.35]]></cell><cell><![CDATA[]]></cell></row>
+<row><cell><![CDATA[23]]></cell><cell><![CDATA[Narowal]]></cell><cell><![CDATA[Fateh Pur Afghana]]></cell><cell><![CDATA[207]]></cell><cell><![CDATA[440]]></cell><cell><![CDATA[2.13]]></cell><cell><![CDATA[]]></cell></row></rows>
